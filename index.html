@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="blood-logo.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+            Hope Blood Bank</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#our_services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#map">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact_us">Contact Us</a>
+              </li>
+            </ul>
+           <!-- Place Login and Signup Button here-->
+           <a class="btn_btn-outline-success_btn-lg" href="login_admin.html">Log-in</a>
+
+          </div>
+        </div>
+      </nav>
+
+
+<!--Slider of First Page-->
+<div class="slider">
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="BloodBank_Dpage.png" alt="">
+        <div class="container">
+          <div class="carousel-caption text-end text-light">
+            <br>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<!--Our Services- This is a part to show all the services which we offer!-->
+<div id="our_services">
+  <div class="container marketing">
+      <h1 class="services">Our Services</h1>
+      <br>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="25" height="140" xmlns="http://www.w3.org/2000/svg" src="./logo.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="blood-donation-logo-ImResizer.jpg" class="rounded-circle" alt="Cinque Terre"></svg>
+
+        <h4><strong>Donate Blood</strong></h4>
+        <p>1 donation can save 3 lives. So donate blood today.</p>
+        <p><a class="senow" href="donorlogin.html">Donate Now</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="25" height="155" xmlns="http://www.w3.org/2000/svg" src="./logo.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="blood_drop_search.gif" class="rounded-circle" alt="Cinque Terre"></svg>
+
+        <h4><strong>In Need of Blood?</strong></h4>
+        <p>Searching for blood, well you've come to the right place.</p>
+        <p><a class="boknow" href="receiverlogin.html">Search</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="25" height="100" xmlns="http://www.w3.org/2000/svg" src="./logo.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="Blood-Bags-1024x683-ImResizer.jpg" class="rounded-circle" alt="Cinque Terre"></svg>
+
+        <h4><strong>Check Blood Availability</strong></h4>
+        <p>Check our database for availability of blood.</p>
+        <p><a class="bynow" href="checkavail.php">Check</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+  <br>
+
+   
+<!-- About Us-->
+<div id="map">
+<div class="container-fluid">
+  <h1 class="services">About Us</h1>
+  <br>
+  <img src="aboutus.jpg" alt="" width="700px" height="500px">
+  <div class="right-text">
+  <h2>About Hope</h2>
+  <br>
+  <p>Hope blood bank enforces Drug & Cosmetic Act, National blood policy standards
+     and guidelines ensuring proper collection & donation, effective management and monitoring the quality and quantity
+      of the donated blood.</p>
+  <p>Blood donation is an extremely noble deed, yet there is a scarcity of regular donors across India.
+    We focus on creating and expanding a virtual army of blood donating volunteers who could be searched and contacted
+    by family / care givers of a patient in times of need.</p>
+  <br>
+  </div>
+  </div>
+</div>
+<br>
+<!--Contact Us-->
+<div id="contact_us">
+<div class="container-fluid">
+  <h1 class="services">Contact Us</h1>
+
+  <form>
+    <div class=" mb-3">
+      <p><label for="exampleInputName" class="form-label">Name</label>  
+      <input type="text" class="form-control " id="exampleInputName">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputMobileNumber" class="form-label">Mobile Number</label>
+      <input type="number" class="form-control" id="exampleInputMobileNumber">
+    </div>
+    <div class="mb-3">
+      <label for="exampleEnquiry" class="form-label">Enter Your Enquiry</label>
+      <br>
+      <textarea id="Enquiry" class="box1" name="Enqui" rows="4" cols="65"></textarea>
+    </div>
+    <button type="submit" class="submitbutton">Submit</button>
+  </form>
+</div>
+</div>
+
+<!-- <form class="row g-3">
+  <div class="col-auto">
+    <label for="staticEmail2" class="visually-hidden">Email</label>
+    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="E-mail address :">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword2" class="visually-hidden">Password</label>
+    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+  </div> -->
+<!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <br>
+   <!-- <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>-->
+  </footer>
+</main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  </body>
+</html>

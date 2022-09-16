@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Donor Registration Form</title>
+  <link rel="stylesheet" href="donorregstyle.css">
+</head>
+<body>
+    <div class="signupFrm">
+        <form action="php/donorreg.php" class="form" method="post">
+          <h1 class="title">Donor Registration</h1>
+    
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="Aadhar Number" name="aadhar" maxlength="12" minlength="12">
+          </div>
+    
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="Fullname" name="fullname">
+            
+          </div>
+    
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="Age" name="age">
+            
+          </div>
+
+          <div class="inputContainer">
+            <label>Choose your gender :</label>
+            <input type="radio" name="gender" class="input" value="male">Male
+            <input type="radio" name="gender" class="input" value="female">Female
+            <input type="radio" name="gender" class="input" value="others">Others
+            
+          </div>
+          <br><br><br><br>
+
+          <div class="inputContainer">
+            Date Of Donation <input type="date" class="input" name="date">
+            
+          </div>
+          <br>
+
+          <div class="inputContainer">
+            <label for="bgroup">Choose your blood group : </label>
+
+                <select name="bgroup" id="bgroup">
+                   <option value="A+" >A+</option>
+                   <option value="B+" >B+</option>
+                   <option value="AB+" >AB+</option>
+                   <option value="O+" >O+</option>
+                   <option value="A-" >A-</option>
+                   <option value="B-" >B-</option>
+                   <option value="AB-" >AB-</option>
+                   <option value="O-" >O-</option>
+                </select>
+            
+          </div>
+    
+          
+
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="Street" name="street">
+            
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="City" name="city">
+            
+          </div>
+    
+          <button class="submitBtn" value="Register" name="register">Register</button>
+        </form>
+      </div>
+
+</body>
+</html>
